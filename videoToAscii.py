@@ -1,6 +1,6 @@
 import cv2
 
-ASCII_CHARS = """   .:-=++**##%%@@"""
+ASCII_CHARS = """   .-=++**##%%@@"""
 
 # Ensure we correctly map pixel values to our ASCII_CHARS range
 # We subtract 1 from len(ASCII_CHARS) because string indices are 0-based
