@@ -1,11 +1,6 @@
 import cv2
 
-# ASCII_CHARS = "@%#*+=-:. "
 ASCII_CHARS = """   .:-=++**##%%@@"""
-# ASCII_CHARS = " _,-=+:;cba!?0123456789$W#@Ñ"
-# ASCII_CHARS = (
-#     """$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^`'."""
-# )
 
 # Ensure we correctly map pixel values to our ASCII_CHARS range
 # We subtract 1 from len(ASCII_CHARS) because string indices are 0-based
